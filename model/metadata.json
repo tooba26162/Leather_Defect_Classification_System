@@ -1,0 +1,22 @@
+{
+  "model_architecture": "EfficientNetB0 + custom head",
+  "image_size": [
+    224,
+    224
+  ],
+  "num_classes": 6,
+  "class_names": [
+    "Folding marks",
+    "Grain off",
+    "Growth marks",
+    "loose grains",
+    "non defective",
+    "pinhole"
+  ],
+  "phase1_best_val_acc": 0.7792,
+  "phase2_best_val_acc": 0.7833,
+  "freeze_until_layer": 208,
+  "phase2_learning_rate": "2e-6",
+  "trained_at": "2026-05-17T14:41:21.937857",
+  "preprocessing": "EfficientNet built-in (no rescaling)"
+}
